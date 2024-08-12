@@ -1,0 +1,20 @@
+.container{
+    padding: 16px;
+    justify-content: center;
+    display: flex;
+}
+
+.search{
+    text-align: center;
+    font-size: 30px;
+    height: 40px;
+    border-radius: 16px;
+
+}
+
+.playerCardsContainer {
+    display: flex;
+    flex-wrap: wrap; /* Allows items to wrap onto multiple lines */
+    justify-content: flex-start; /* Aligns items to the start of the container (left) */
+    gap: 16px; /* Adds space between items (optional) */
+  }

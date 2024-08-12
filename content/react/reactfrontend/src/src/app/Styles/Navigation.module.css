@@ -1,0 +1,83 @@
+.main { 
+    background-color: white; 
+    margin: 0; 
+    padding: 0; 
+    width: 100%;
+  } 
+  
+  .head { 
+    background-color: #adbbda;
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    border-bottom: solid white; 
+    height: 100px; 
+    width: 100%; 
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box; 
+  } 
+  
+  .title { 
+    text-decoration: 'underline';
+    color: white; 
+    font-size: 25px; 
+    font-weight: 700; 
+    width: 150px; 
+    text-align: center; 
+    font-family: 'Montserrat', sans-serif; 
+    transition: all 0.3s ease; /* Smooth transition for hover effects */ 
+    
+  } 
+  .title:hover { 
+    background: white; /* Background color on hover */ 
+    color: #adbbda; /* Text color on hover */ 
+    border: 2px solid #adbbda; /* Border color on hover */ 
+  } 
+  
+  .buttonContainer { 
+    display: flex; 
+    flex-grow: 1; 
+    justify-content: flex-start;
+     gap: 10px; 
+  } 
+  
+    .buttonNav {
+      background: transparent; /* Clear background */
+      border: 0px solid white; /* Adds a white border */ 
+      color: white; /* Text color */ 
+      font-size: 16px; /* Adjust font size as needed */ 
+      font-weight: 500; /* Slightly lighter font weight for a modern look */ 
+      padding: 10px 20px; /* Padding inside the button */ 
+      border-radius: 4px; /* Rounded corners */ 
+      cursor: pointer; /* Changes cursor to pointer on hover */ 
+      transition: all 0.3s ease; /* Smooth transition for hover effects */ 
+      outline: none; /* Removes default outline */ 
+      text-decoration: 'none';
+
+    }
+     /* Hover effect */ 
+  .buttonNav:hover { 
+    background: white; /* Background color on hover */ 
+    color: #adbbda; /* Text color on hover */ 
+    border: 2px solid #adbbda; /* Border color on hover */ 
+  } 
+  /* Active button style */ 
+  .buttonNav.active { 
+    background: white; /* White background for active button */ 
+    color: #adbbda; /* Text color when active */ 
+    border: 2px solid #adbbda; /* Border color when active */ 
+  } 
+  .buttonNav:focus { 
+    box-shadow: 0 0 0 2px rgba(173, 187, 218, 0.5); /* Optional: Adds a subtle focus ring */ 
+  }
+  
+  .divider{
+  
+      color: white; /* Text color */ 
+      font-size: 25px; /* Adjust font size as needed */ 
+      font-weight: 100; 
+      justify-content: center;
+  
+  }
+  
